@@ -28,7 +28,7 @@ public class MathUtilTest {
                                   {1, 1},
                                   {2, 2},
                                   {5, 120},
-                                  {7, 720}
+                                  {7, 5040}
                                };
     }
     
@@ -40,7 +40,7 @@ public class MathUtilTest {
     public void testGetFactorialGivenRightReturnWell(int input, long expected) {
         assertEquals(expected, getFactorial(input));
     }
-
+ 
     @Test
     public void testGetFactorialGivenWrongArgThrowException() {
         // xài biểu thức thứ 2 là 1 cái object/có code implement cái
